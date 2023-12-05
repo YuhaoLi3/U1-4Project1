@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class GameRunner {
+public class GameRunner {
+    public static void main(String[] args) {
+        startGame game = new startGame(369);
+        game.go();
+    }
 }
